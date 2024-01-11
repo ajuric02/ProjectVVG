@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/footer.css">
+
+    <title>NK Ban Jelačić contact</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img class="logo-picture" src="https://api.sofascore.app/api/v1/team/368122/image" alt="Grb">
+        </div>
+
+        <nav>
+           <ul class="home"><a href="index.html">Home</a></ul>
+            <ul><a href="treneri.html">Treneri</a></ul>
+            <ul><a href="projekti.html">Projekti</a></ul>
+            <ul><a href="contact.html">Contact</a></ul>
+            <ul><a href="about.html">About</a></ul>
+            
+        </nav>
+    </header>
+
+    <main>
+        <iframe loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:NK+Ban+Jela%C4%8Di%C4%87+Banovo/@45.9189836,16.430976,17z/data=!4m16!1m9!3m8!1s0x47666b66a7310a39:0xd1a7684e0b50e06a!2sNK+Ban+Jela%C4%8Di%C4%87+Banovo!8m2!3d45.9190657!4d16.4319309!9m1!1b1!16s%2Fg%2F11c55vg85c!3m5!1s0x47666b66a7310a39:0xd1a7684e0b50e06a!8m2!3d45.9190657!4d16.4319309!16s%2Fg%2F11c55vg85c?entry=ttu">
+        </iframe>
+
+        <form>
+            <label for="firstname">First Name *</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Your name is?" required>
+
+            <label for="lastname">Last Name *</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Your last name is?" required>
+            
+            <label for="email">Your E-mail *</label>
+            <input type="email" id="email" name="email" placeholder="Your e-mail is?" required>
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="">Please select</option>
+                <option value="CRO" selected>Croatia</option>
+                <option value="BIH">Bosnia and Herzegovina</option>
+                <option value="SRB">Serbia</option>
+                <option value="ITA">Italy</option>
+                <option value="SLO">Slovenia</option>
+                <option value="GER">Germany</option>
+                <option value="HU">Hungary</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something here..." style="height:200px"></textarea>
+
+            <input class="submit" type="submit" value="Submit">
+        </form>
+    </main>
+
+    <footer>
+        <div class="icons">
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+        </div>
+
+        <p class="copyright">
+            Copyright &copy; Antonio Jurić
+        </p>
+    </footer>
+    
+    
+
+    
+
+</body>
+</html>
