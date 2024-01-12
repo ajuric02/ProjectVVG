@@ -1,0 +1,87 @@
+main {
+    padding-bottom: 20px;
+}
+
+.main-picture {
+    padding: 0;
+}
+
+figure {
+    margin: 10px;
+}
+
+nav {
+    background-image: url("https://img.freepik.com/premium-vector/home-icon-house-symbol-simple-vector-design-logo_231786-5048.jpg?w=360");
+    background-size: 40px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.ribnjak-picture {
+    width: 100%;
+    box-shadow: 5px 5px 50px red;
+    border-radius: 5px;
+}
+
+figcaption {
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 12px;
+    font-style: italic;
+}
+
+figcaption1{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 12px;
+    font-style: italic;
+}
+
+.main-text {
+    color: black;
+    padding: 10px;
+    text-align: justify;
+}
+
+@media only screen and (min-width: 480px) {
+    nav {
+        background-image: none;
+    }
+
+    .main-picture {
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .main-box {
+        display: flex;
+        flex-direction: row;
+        vertical-align: top;
+    }
+
+    figure {
+        margin: 0 10px;
+        width: 50%;
+    }
+
+    figcaption {
+        margin-bottom: 50px;
+    }
+
+    .main-text {
+        margin: 0 10px;
+        padding-top: 0;
+        width: 50%;
+    }    
+}
