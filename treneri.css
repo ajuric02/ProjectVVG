@@ -1,0 +1,93 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 40px;
+}
+
+nav {
+    background-image: url("https://img.freepik.com/premium-vector/dark-background-board-with-tactical-placement-football-players-vector-illustration_532963-3290.jpg");
+    background-size: 100%;
+}
+
+.treneri {
+    display: flex;
+    margin: 10px;
+    box-shadow: 5px 5px 50px yellow;
+    border-radius: 5px;
+}
+
+
+.img {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.trener-img {
+    width: 200px;
+    border-radius: 5px;
+    padding: 34px 0;
+}
+
+.trener-info {
+    width: 100%;
+    text-align: center;
+    margin-left: 15px;
+    color: black;
+}
+
+p {
+    margin-right: 15px;
+}
+
+
+@media only screen and (min-width: 480px) {
+    nav {
+        background-image: none;
+    }
+
+    main {
+        margin-top: 50px;
+        padding-bottom: 50px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .treneri {
+        display: block;
+        justify-content: center;
+        box-shadow: 5px 5px 50px yellow;
+        border-radius: 5px;
+
+    }
+
+    .trener-img {
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .img {
+        box-shadow: none;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 760px) {
+    main {
+        margin-top: 50px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .img, .treneri-img {
+        width: 350px
+    }
+
+    .trener-img {
+        padding: 50px 0;
+    }
+
+    .trener-name {
+        font-size: 25px;
+    }
+}

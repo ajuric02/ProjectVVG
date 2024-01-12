@@ -1,0 +1,92 @@
+header {
+    background-color: black;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo-picture {
+    width: 80px;
+    background-color: white;
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+    padding: 30px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+}
+
+@media only screen and (min-width: 480px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 700px;
+        padding: 0px;
+        margin-right: 20px;
+    }
+
+    .home {
+        margin: 0px;
+        padding: 40px 35px;
+        background-image: url("https://img.freepik.com/premium-vector/home-icon-house-symbol-simple-vector-design-logo_231786-5048.jpg?w=360");
+        background-size: 105px;
+    }
+
+    .treneri {
+        margin: 0px;
+        padding: 40px 35px;
+        background-image: url("https://img.freepik.com/premium-vector/dark-background-board-with-tactical-placement-football-players-vector-illustration_532963-3290.jpg");
+        background-size: 200px;
+    }
+
+    .projekti {
+        margin: 0px;
+        padding: 40px 35px;
+        background-image: url("https://greatyellowbrick.co.za/cdn/shop/products/lego-speed-champions-lamborghini-countach-76908_001_720x@2x.jpg?v=1645528786");
+        background-size: 200px;
+    }
+
+    .contact {
+        margin: 0px;
+        padding: 40px 35px;
+        background-image: url("https://www.lego.com/cdn/cs/set/assets/blt13f0aa3c7c7c5c73/Sophia_StandingWithPhone_V7_Shadowless_lowres.png");
+        background-size: 120px;
+    }
+
+    .about {
+        margin: 0px;
+        padding: 40px 35px;
+        background-image: url("https://images.squarespace-cdn.com/content/v1/51967abae4b0fe8d0161031f/1640074349869-CM0TK349RWHX1KY7K0T4/Wrapped+LEGO+Present+Box+with+Snowflake+Surprise+Instructions+%2825%29.jpg?format=1000w");
+        background-size: 200px;
+    }
+
+    a:hover {
+        box-shadow: 3px 5px 4px gray;
+        border-radius: 5px;
+    }
+
+    main {
+        padding-top: 50px;
+        position: absolute;
+    }
+}
