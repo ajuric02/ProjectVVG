@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="Slike projekt/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="stilovi/general.css">
+    <link rel="stylesheet" href="stilovi/header.css">
+    <link rel="stylesheet" href="stilovi/kontakt.css">
+    <link rel="stylesheet" href="stilovi/footer.css">
+
+    <title>NK Ban Jelačić Kontakt</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img class="logo-picture" src="https://api.sofascore.app/api/v1/team/368122/image" alt="Grb">
+        </div>
+
+        <nav>
+            <ul><a href="index.html">Početna</a></ul>
+            <ul><a href="treneri.html">Treneri</a></ul>
+            <ul><a href="projekti.html">Projekti</a></ul>
+            <ul class="kontakt"><a href="kontakt.html">Kontakt</a></ul>
+            <ul><a href="oklubu.html">O klubu</a></ul>
+            
+        </nav>
+    </header>
+
+    <main>
+        <iframe loading="lazy" allowfullscreen src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2775.6120533508856!2d16.42935597629889!3d45.919065671085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47666b66a7310a39%3A0xd1a7684e0b50e06a!2sNK%20Ban%20Jela%C4%8Di%C4%87%20Banovo!5e0!3m2!1shr!2shr!4v1705242830502!5m2!1shr!2shr">
+        </iframe>
+
+        <form>
+            <label for="firstname">Ime *</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Vaše ime je?" required>
+
+            <label for="lastname">Prezime *</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Vaše prezime je?" required>
+
+            <label for="firstname">Ime vašeg djeteta *</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Ime vašeg djeteta je?" required>
+
+            <label for="age">Dob djeteta *</label>
+            <input type="number" id="age" name="age" placeholder="Dob djeteta je?" required>
+            
+            <label for="email">Vaš E-mail *</label>
+            <input type="email" id="email" name="email" placeholder="Vaš e-mail je?" required>
+
+            <label for="treneri">Treneri</label>
+            <select id="treneri" name="treneri">
+                <option value="" selected>Molimo odaberite trenera</option>
+                <option value="ZT">Zoran Tarandek (Limači)</option>
+                <option value="DU">Darijo Uremović (Pioniri)</option>
+                <option value="SU">Saša Uremović (Juniori)</option>
+                <option value="SU">Saša Uremović (Seniori)</option>              
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Napišite nešto..." style="height:200px"></textarea>
+
+            <input class="submit" type="submit" value="Podnesi">
+        </form>
+    </main>
+
+    <footer>
+        <div class="icons">
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+        </div>
+
+        <p class="copyright">
+            Copyright &copy; Antonio Jurić
+        </p>
+    </footer>
+    
+    
+
+    
+
+</body>
+</html>
