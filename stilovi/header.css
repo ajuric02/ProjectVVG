@@ -1,0 +1,93 @@
+header {
+    background-color: black;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo-picture {
+    width: 120px;
+    background-color: white;
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(227, 0, 11);
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(245, 62, 62);
+    border-radius: 0px;
+}
+
+@media only screen and (min-width: 480px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 700px;
+        padding: 20px;
+        margin-right: 0px;
+    }
+
+    .index {
+        margin: 0px;
+        padding: 40px 30px;
+        background-image: url("https://img.freepik.com/premium-vector/home-icon-house-symbol-simple-vector-design-logo_231786-5048.jpg?w=360");
+        background-size: 110px;
+    }
+
+    .treneri {
+        margin: 0px;
+        padding: 40px 20px;
+        background-image: url("https://img.freepik.com/premium-vector/dark-background-board-with-tactical-placement-football-players-vector-illustration_532963-3290.jpg");
+        background-size: 90px;
+    }
+
+    .projekti {
+        margin: 0px;
+        padding: 40px 50px;
+        background-image: url("https://hd.wallpaperswide.com/thumbs/project-t2.jpg");
+        background-size: 150px;
+    }
+
+    .kontakt {
+        margin: 0px;
+        padding: 30px 35px;
+        background-image: url("https://www.shutterstock.com/image-photo/young-woman-fan-wear-basic-600nw-2276661263.jpg");
+        background-size: 120px;
+    }
+
+    .oklubu {
+        margin: 0px;
+        padding: 40px 35px;
+        background-image: url("https://st3.depositphotos.com/2294011/18308/v/450/depositphotos_183089456-stock-illustration-coaching-board-game-tactics-strategies.jpg");
+        background-size: 200px;
+    }
+
+    a:hover {
+        box-shadow: 3px 5px 4px white;
+        border-radius: 5px;
+    }
+
+    main {
+        padding-top: 50px;
+        position: absolute;
+    }
+}
+
