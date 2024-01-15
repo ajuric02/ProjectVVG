@@ -67,7 +67,7 @@ figcaption {
 
     .main-box {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         vertical-align: top;
     }
     .main-text {
